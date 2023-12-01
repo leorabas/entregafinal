@@ -6,4 +6,17 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-}
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+.nav-link {
+    color: white !important; /* Establecer el color predeterminado del texto */
+  }
+  
+  .fw-bold {
+    color: blue !important; /* Cambiar el color del texto cuando está en negrita */
+  }
+  

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 
+
 function Inicio() {
   return (
     <div>

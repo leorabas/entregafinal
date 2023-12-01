@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
   font-weight: 400;
 
@@ -28,6 +34,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url( ./assets/img/simpsons.jpg);
+}
+body.image {
+  height: 100%;
+  width: 100%;
 }
 
 h1 {

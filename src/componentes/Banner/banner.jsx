@@ -1,7 +1,7 @@
 // Banner.jsx
 import React from 'react';
 import './Banner.css';
-import banner2 from "../../assets/img/banner2.jpg"; 
+import banner2 from "../../assets/img/banner2.jpg";
 
 function Banner() {
   return (

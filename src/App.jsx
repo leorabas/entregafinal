@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Inicio from './componentes/Inicio/Inicio';
+import Inicio from './componentes/Inicio/Inicio.jsx';
 import Historia from './componentes/Historia/Historia';
 import Contacto from './componentes/Contacto/Contacto';
 import Temporadas from './componentes/Temporadas/Temporadas';

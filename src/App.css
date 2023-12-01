@@ -1,3 +1,22 @@
 body {
   font-family: 'Courier New', monospace;
 }
+.navbar-container {
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+}
+
+.navbar-container a {
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.navbar-container a:hover {
+  text-decoration: underline;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Temporadas.css';
+
 import BarraNavegacion from '../Navbar/Navbar';
 
 const Temporadas = () => {

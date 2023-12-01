@@ -1,0 +1,9 @@
+.navBar {
+    padding: 1rem;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    background-image: url(./assets/img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}

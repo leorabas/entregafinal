@@ -1,0 +1,15 @@
+.banner-container {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-image: url('/assets/img/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

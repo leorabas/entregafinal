@@ -1,0 +1,9 @@
+.carousel-caption h3,
+.carousel-caption p {
+  color: black; 
+}
+
+.carousel-image {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción original */
+  }

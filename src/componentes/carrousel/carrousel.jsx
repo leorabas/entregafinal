@@ -1,33 +1,37 @@
+
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from './ExampleCarouselImage'; // Ajusta la ruta según la ubicación de tu componente
+import temp1 from '../../assets/img/temp1.jpeg';
+import temp10 from '../../assets/img/temp10.jpg';
+import temp30 from '../../assets/img/temp30.jpg';
+import './carrousel.css';
 
-function CarrouselFotos() {
+
+function CarouselF() {
   return (
-    <Carousel>
+    <Carousel fade>
       <Carousel.Item>
-        <ExampleCarouselImage text="First slide" imagePath="./assets/img/temp1.jpeg" />
+        <img className="carousel-image" src={temp1} alt="los simpsons temporada 1" />
         <Carousel.Caption>
-          <h3>Temporada 1</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Los primeros Simpsons</h3>
+          <p>Temporada 1</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" imagePath="./assets/img/temp10.jpg" />
+        <img className="carousel-image" src={temp10} alt="los simpsons temporada 10" />
         <Carousel.Caption>
-          <h3>Temporada 10</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Así eran en la temporada 10</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" imagePath="./assets/img/temp30.jpg" />
+        <img className="carousel-image" src={temp30} alt="los simpsons temporada 30" />
         <Carousel.Caption>
-          <h3>temporada 30</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>Ultima temporada</h3>
+          <p>¡Así estamos en la 30!</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
 }
 
-export default CarrouselFotos;
+export default CarouselF

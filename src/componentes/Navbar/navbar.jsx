@@ -22,7 +22,7 @@ function BarraNavegacion() {
   );
 
   return (
-    <Container fluid className="navBar d-flex align-items-center justify-content-start" style={{ backgroundImage: `url(${banner})`, height: '10vh' }}>
+    <Container fluid className="navBar d-flex align-items-center justify-content-start" style={{ backgroundImage: `url(${banner})`, height: '10vh', width: '100vw' }}>
       <Nav>
         <NavLink to="/" label="Inicio" />
         <NavLink to="/Historia" label="Historia" />

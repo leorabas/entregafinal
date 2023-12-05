@@ -32,10 +32,11 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: unset;
   min-height: 100vh;
   font-family: 'Courier New', Courier, monospace;
   background-image: url( ./assets/img/simpsons.jpg);
+  
 }
 body.image {
   height: 100%;
@@ -49,7 +50,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 0.2rem solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -77,4 +78,22 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Media Query para pantallas más pequeñas (ancho máximo de 768 píxeles) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Ajuste de tamaño de fuente para pantallas más pequeñas */
+  }
+
+  /* Otros estilos específicos para pantallas más pequeñas */
+}
+
+/* Otra Media Query para pantallas más grandes (ancho mínimo de 1200 píxeles) */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 18px; /* Ajuste de tamaño de fuente para pantallas más grandes */
+  }
+
+  /* Otros estilos específicos para pantallas más grandes */
 }

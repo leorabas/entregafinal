@@ -1,9 +1,16 @@
+/* carrousel.css */
+
+.carousel {
+  max-width: 100%;
+}
+
 .carousel-caption h3,
 .carousel-caption p {
-  color: black; 
+  color: black;
 }
 
 .carousel-image {
-    width: 100%; /* Establece el ancho al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura para mantener la proporción original */
-  }
+  width: 100%;
+  height: auto; /* Cambiado a "auto" para mantener la proporción de la imagen */
+  object-fit: cover;
+}

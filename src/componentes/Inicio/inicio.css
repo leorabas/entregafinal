@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  overflow: auto; /* Agrega overflow: auto para permitir barras de desplazamiento */
 }
 
 .titulo {
@@ -15,9 +14,43 @@
   background-color: rgb(248, 248, 6);
 }
 
-/* Estilos específicos para el carrusel dentro del contenedor */
-.carousel {
-  border: solid 5px;
-  max-width: 800px;
+.carousel-container {
+  width: 80%;
+  max-width: 100%;
   margin: auto;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  max-width: 100%;
+}
+
+.carousel-image {
+  width: 80%; /* Ajustado al 80% del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  object-fit: contain;
+  object-position: center;
+}
+
+.banner-container {
+  width: 80%;
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem; /* Añadido espacio adicional */
+  text-align: center;
+  background-color: lightgray; /* Cambiado para visualizar el área del Banner */
+  position: relative; /* Añadido posicionamiento relativo */
+  z-index: 1; /* Asegura que el Banner esté sobre el Carousel */
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Alinea el contenido al centro del Banner */
 }

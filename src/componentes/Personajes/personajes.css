@@ -1,0 +1,30 @@
+ 
+  .Form label, .Form input {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+  
+  .Form button {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  .Form {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid 0.2rem;
+    background-color: rgb(240, 243, 87);
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+  
+  .PersonajeInfo {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: solid 0.2rem;
+    background-color: #e1e1e1;
+  }
+  

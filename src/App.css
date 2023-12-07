@@ -87,7 +87,6 @@ button:focus-visible {
   }
 }
 
-/* Agregado para evitar superposición con barra de navegación fija */
 .Temporadas {
-  margin-top: 5rem; /* Ajusta la altura según sea necesario */
+  margin-top: 5rem; 
 }

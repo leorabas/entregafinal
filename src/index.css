@@ -80,20 +80,19 @@ button:focus-visible {
   }
 }
 
-/* Media Query para pantallas más pequeñas (ancho máximo de 768 píxeles) */
+
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px; /* Ajuste de tamaño de fuente para pantallas más pequeñas */
+    
   }
 
-  /* Otros estilos específicos para pantallas más pequeñas */
+  
 }
 
-/* Otra Media Query para pantallas más grandes (ancho mínimo de 1200 píxeles) */
+
 @media only screen and (min-width: 1200px) {
   body {
-    font-size: 18px; /* Ajuste de tamaño de fuente para pantallas más grandes */
+    font-size: 18px; 
   }
 
-  /* Otros estilos específicos para pantallas más grandes */
 }

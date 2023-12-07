@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BarraNavegacion from '../Navbar/Navbar';
-import './personajes.css';  // Importa el archivo CSS
+import './personajes.css';  
 
 function Personajes() {
   const [personaje, setPersonaje] = useState({
@@ -27,7 +27,7 @@ function Personajes() {
     const contenedorInfo = document.getElementById('personaje-info');
     const parrafo = document.createElement('p');
 
-    // Construir la cadena de palabras con la información adicional
+   
     const palabras = [
       mascota,
       `trabaja de ${profesion}`,
@@ -38,7 +38,7 @@ function Personajes() {
     const palabrasString = palabras.join(', ');
     parrafo.textContent = `Nuevo personaje: ${palabrasString}`;
     parrafo.className = 'PersonajeInfo';
-    contenedorInfo.innerHTML = ''; // Limpiar el contenedor antes de agregar un nuevo párrafo
+    contenedorInfo.innerHTML = ''; 
     contenedorInfo.appendChild(parrafo);
   };
 

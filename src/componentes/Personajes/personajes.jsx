@@ -51,7 +51,7 @@ function Personajes() {
           <label htmlFor="mascota">Nombre de la mascota de tu infancia:</label>
           <input type="text" id="mascota" onChange={(e) => handleChange('mascota', e.target.value)} />
 
-          <label htmlFor="profesion">La profesión de tu abuelo/abuela maternx:</label>
+          <label htmlFor="profesion">La profesión de tu abuelo materno:</label>
           <input type="text" id="profesion" onChange={(e) => handleChange('profesion', e.target.value)} />
 
           <label htmlFor="comida">La comida que menos te gusta:</label>

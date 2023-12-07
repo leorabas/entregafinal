@@ -43,7 +43,7 @@ function Contacto() {
             onChange={(e) => setConsulta(e.target.value)}
           />
         </Form.Group>
-        <button type="submit">Envíar</button>
+        <button type="submit">Enviar</button>
       </Form>
     </div>
   );
